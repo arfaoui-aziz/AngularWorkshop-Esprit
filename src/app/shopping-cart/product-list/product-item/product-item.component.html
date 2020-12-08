@@ -2,20 +2,20 @@
   <img
     class="bd-placeholder-img card-img-top p-2"
     width="100%"
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png"
+    [src]="productItem.imageUrl"
   />
 
   <div class="card-body">
     <p class="card-text">
-      <strong>{{ 254 }} TND</strong>
+      <strong>{{ productItem.price }} TND</strong>
     </p>
     <p class="card-text">
-      This is a wider card with supporting text below as a natural lead-in to
-      additional content. This content is a little bit longer.
+      {{ productItem.description }}
     </p>
     <div class="d-flex justify-content-between align-items-center">
       <div class="btn-group">
-        <button type="button" class="btn btn-sm btn-primary product-btn">
+        <button type="button" class="btn btn-sm btn-primary product-btn"
+        (click)="handleAddToCart()">
           Add to Cart
         </button>
         <button
