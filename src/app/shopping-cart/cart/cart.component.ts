@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { CartItem } from 'src/app/model/cart-item';
 import { Product } from 'src/app/model/product';
+import { CartService } from 'src/app/shared/cart.service';
 import {MessengerService } from 'src/app/shared/messenger.service';
 
 @Component({
@@ -9,50 +11,41 @@ import {MessengerService } from 'src/app/shared/messenger.service';
 })
 export class CartComponent implements OnInit {
 
-cartItems = [
- // {id:1,productId:1,productName: 'Test1' ,qty: 4 ,price:200},
-//  {id:2,productId:2, productName:'Test2',qty: 2 ,price:100},
-//  {id:3,productId:3,productName: 'Test3' ,qty: 4 ,price:100},
-];
+cartItems = [];
 
 totalPrice =0
 
-  constructor(private msg:MessengerService) { }
+  constructor(private msg:MessengerService,private cartService:CartService) { }
 
   ngOnInit(): void {
-    // we have to use subscribe with observabale
-    this.msg.getMsg().subscribe( (product:Product) =>{
-     this.addProductToCart(product);
-    });
-    
+   this.handleSubscription();
+   this.loadCartItem();
   }
 
-  addProductToCart(product : Product){
-    
-  let productExists = false;
+  handleSubscription() {
 
-  for(let i in this.cartItems){
-    if (this.cartItems[i].productId === product.id){
-      this.cartItems[i].qty++ ;
-      productExists = true;
-      break;
-      }
-    }
+ // we have to use subscribe with observabale
+ this.msg.getMsg().subscribe( (product:Product) =>{
+  this.loadCartItem();
+ });
 
-    if(!productExists) {
-      this.cartItems.push({
-        productId: product.id,
-        productName: product.name,
-        qty:1,
-        price: product.price
-      })
-    }
+  }
 
+  loadCartItem(){
+    this.cartService.getCartItems().subscribe((items: CartItem[]) =>
+    {
+this.cartItems = items;
+this.calculateCartTotal()
+
+
+    })
+  }
+
+  calculateCartTotal(){
     this.totalPrice=0;
     this.cartItems.forEach(item => {
       this.totalPrice += (item.qty * item.price)
     })
-
   }
 
 }

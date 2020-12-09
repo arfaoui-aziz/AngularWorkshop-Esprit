@@ -1,73 +1,88 @@
 {
-"products": [
-{
-  "id":1,
-  "name":"rubik's cube",
-  "description": "This is the First product description",
-  "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
-  "price": 199
-},
-
-{
-  "id":2,
-  "name":"Product 2",
-  "description": "This is the Second product description",
-  "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
-  "price": 299
-},
-
-{
-  "id":3,
-  "name":"rubik's cube",
-  "description": "This is the Third product description",
-  "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
-  "price": 399
-},
-
-{
-  "id":4,
-  "name":"rubik's cube",
-  "description": "This is the Fourth product description",
-  "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
-  "price": 400
-},
-
-{
-  "id":5,
-  "name":"rubik's cube",
-  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
-  "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
-  "price": 599
-},
-
-{
-  "id":6,
-  "name":"rubik's cube",
-  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
-  "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
-  "price": 600
-}
-
-],
-
-
-
-
-  "posts": [
+  "products": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Product 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+      "price": 199
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Product 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+      "price": 299
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+      "price": 399
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+      "price": 400
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+      "price": 599
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+      "price": 600
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "cart": [
+    {
+      "product": {
+        "id": 2,
+        "name": "Product 2",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+        "price": 299
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Product 5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+        "price": 599
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 6,
+        "name": "Product 6",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+        "price": 600
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Product 2",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+        "price": 299
+      },
+      "id": 4
+    }
+  ]
 }

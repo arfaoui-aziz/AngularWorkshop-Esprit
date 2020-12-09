@@ -2,11 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 import { Observable } from 'rxjs'
 import { Product } from '../model/product' 
+import { productsUrl } from 'src/environments/environment';
 
 
-
-
-const productApi = 'http://localhost:3000/products'
 @Injectable({
   providedIn: 'root'
 })
@@ -17,6 +15,6 @@ export class ProductService {
 
   getProducts(): Observable<Product[]> {
     //return an observable
-    return this.http.get<Product[]>(productApi);
+    return this.http.get<Product[]>(productsUrl);
   }
 }
