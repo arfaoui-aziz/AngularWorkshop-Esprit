@@ -10,7 +10,7 @@
       <strong>{{ productItem.price }} TND</strong>
     </p>
     <p class="card-text">
-      {{ productItem.description }}
+      {{ productItem.description | slice: 0:80 }} ...
     </p>
     <div class="d-flex justify-content-between align-items-center">
       <div class="btn-group">
@@ -28,3 +28,4 @@
     </div>
   </div>
 </div>
+
