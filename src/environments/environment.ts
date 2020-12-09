@@ -9,6 +9,7 @@ export const environment = {
 export const baseUrl = 'http://localhost:3000';
 export const productsUrl = baseUrl + '/products';
 export const cartUrl = baseUrl + '/cart';
+export const wishlistUrl = baseUrl + '/wishlist';
 
 /*
  * For easier debugging in development mode, you can import the following file

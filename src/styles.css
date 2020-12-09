@@ -5,3 +5,12 @@
 .product-btn {
     font-size: smaller;
 }
+.fas{
+    color: #d32f2f ;
+    cursor: pointer;
+  }
+
+.far {
+    color: #d32f2f;
+    cursor: pointer;
+}
