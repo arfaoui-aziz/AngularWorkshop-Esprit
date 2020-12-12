@@ -52,7 +52,7 @@
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
         "price": 199
       },
-      "id": 8
+      "id": 18
     },
     {
       "product": {
@@ -62,18 +62,23 @@
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
         "price": 299
       },
-      "id": 10
-    },
-    {
-      "product": {
-        "id": 3,
-        "name": "Product 3",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
-        "price": 399
-      },
-      "id": 12
+      "id": 20
     }
   ],
-  "wishlist": []
+  "wishlist": [],
+  "user": [
+    {
+      "name": "test",
+      "email": "test@gmail",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "aziz",
+      "email": "aziz@gmail.com",
+      "username": "azizTest",
+      "password": "55555",
+      "id": 2
+    }
+  ]
 }

@@ -19,7 +19,10 @@ export class CartItemComponent implements OnInit {
 
   deleteProductFromCart(cartItem: CartItem){
     this.cartItemDeleted.emit();
-    this.cartService.deleteCartItem(cartItem).subscribe();  
+    this.cartService.deleteCartItem(cartItem).subscribe((result)=>
+    {
+      console.log(result);
+    });  
     
   }
 

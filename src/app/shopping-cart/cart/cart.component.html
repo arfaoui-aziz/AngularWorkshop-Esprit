@@ -6,7 +6,7 @@
   <li class="list-group-item" *ngFor="let item of cartItems">
     <app-cart-item
       [cartItem]="item"
-      (cartItemDeleted)="loadCartItem()"
+      (cartItemDeleted)="ngOnInit()"
     ></app-cart-item>
   </li>
 
