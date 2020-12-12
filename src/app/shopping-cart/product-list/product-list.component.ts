@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Product } from 'src/app/model/product';
 import { ProductService } from 'src/app/shared/product.service';
 import { WishlistService } from 'src/app/shared/wishlist.service';
+import { FiltersComponent } from '../filters/filters.component';
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
@@ -11,6 +12,8 @@ export class ProductListComponent implements OnInit {
 
   productList : Product[] = [];
   wishlist: number[] = []
+ 
+
 
   searchInput:string ;
   //Dependency Injection

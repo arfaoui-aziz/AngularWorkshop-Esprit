@@ -17,7 +17,7 @@ totalPrice =0
 
   constructor(private msg:MessengerService,private cartService:CartService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
    this.handleSubscription();
    this.loadCartItem();
   }
@@ -36,8 +36,6 @@ totalPrice =0
     {
 this.cartItems = items;
 this.calculateCartTotal()
-
-
     })
   }
 

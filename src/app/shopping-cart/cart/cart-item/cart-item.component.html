@@ -2,5 +2,8 @@
   <span>{{ cartItem.productName }} </span> x <span>{{ cartItem.qty }}</span>
   &nbsp;
   <strong>{{ cartItem.qty * cartItem.price }} TND</strong>
-  &nbsp;<i class="fas fa-minus-circle"></i>
+  &nbsp;<i
+    class="fas fa-minus-circle"
+    (click)="deleteProductFromCart(cartItem)"
+  ></i>
 </div>

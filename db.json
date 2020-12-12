@@ -46,33 +46,13 @@
   "cart": [
     {
       "product": {
-        "id": 2,
-        "name": "Product 2",
+        "id": 1,
+        "name": "Product 1",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
-        "price": 299
+        "price": 199
       },
-      "id": 1
-    },
-    {
-      "product": {
-        "id": 5,
-        "name": "Product 5",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
-        "price": 599
-      },
-      "id": 2
-    },
-    {
-      "product": {
-        "id": 6,
-        "name": "Product 6",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
-        "price": 600
-      },
-      "id": 3
+      "id": 8
     },
     {
       "product": {
@@ -82,7 +62,17 @@
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
         "price": 299
       },
-      "id": 4
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Product 3",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+        "price": 399
+      },
+      "id": 12
     }
   ],
   "wishlist": []

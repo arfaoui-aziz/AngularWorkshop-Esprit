@@ -45,6 +45,13 @@ return this.http.get<CartItem[]>(cartUrl).pipe(
 
   addProductToCart(product: Product): Observable<any>{
     return this.http.post(cartUrl,{ product });
+}
 
-  }
+deleteCartItem(cartItem: CartItem): Observable<CartItem>{
+  const id = typeof cartItem === 'number' ? cartItem : cartItem.id;
+  return this.http.delete<CartItem>(cartUrl+'/'+id)
+
+
+}
+
 }

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FiltersComponent implements OnInit {
 
+  minPrice : number;
+  maxPrice : number;
   constructor() { }
 
   ngOnInit(): void {
