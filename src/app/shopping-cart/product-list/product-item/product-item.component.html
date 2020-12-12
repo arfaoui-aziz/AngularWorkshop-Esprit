@@ -7,7 +7,7 @@
 
   <div class="card-body">
     <p class="card-text">
-      <strong>{{ productItem.price }} TND</strong>
+      <strong>{{ productItem.name }}</strong>
       <i
         *ngIf="addedToWishlist"
         class="fas fa-heart float-right"
@@ -29,13 +29,10 @@
         >
           Add to Cart
         </button>
-        <button
-          type="button"
-          class="btn btn-sm btn-outline-secondary product-btn"
-        >
-          View Details
-        </button>
       </div>
+      <p class="card-text">
+        <strong>{{ productItem.price }} TND </strong>
+      </p>
     </div>
   </div>
 </div>

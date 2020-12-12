@@ -11,6 +11,8 @@ export class ProductListComponent implements OnInit {
 
   productList : Product[] = [];
   wishlist: number[] = []
+
+  searchInput:string ;
   //Dependency Injection
   constructor(private productService: ProductService , private wishlistService: WishlistService) { }
 
@@ -32,5 +34,22 @@ export class ProductListComponent implements OnInit {
       this.wishlist = productIds
     })
   }
+
+//   search(){
+
+    
+// if( this.searchInput == '' ){
+//   this.ngOnInit();
+// }else {
+  
+//   this.productList = this.productList.filter(res =>
+//     {
+//     return res.name.toLocaleLowerCase().includes(this.searchInput.toLocaleLowerCase())
+//     })
+// }
+// }
+
+    
+  
 
 }
