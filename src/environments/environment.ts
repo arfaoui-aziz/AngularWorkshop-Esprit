@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUrl : 'http://localhost:4000'
 };
 
 export const baseUrl = 'http://localhost:3000';
@@ -11,6 +12,7 @@ export const productsUrl = baseUrl + '/products';
 export const cartUrl = baseUrl + '/cart';
 export const wishlistUrl = baseUrl + '/wishlist';
 export const userUrl = baseUrl +'/user';
+
 
 /*
  * For easier debugging in development mode, you can import the following file

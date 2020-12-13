@@ -63,6 +63,26 @@
         "price": 299
       },
       "id": 20
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Product 2",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+        "price": 299
+      },
+      "id": 21
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Product 2",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sapiente adipisci illo voluptates velit architecto voluptatibus nemo! Sequi, recusandae obcaecati blanditiis, accusantium repudiandae quidem possimus voluptatem corporis sint delectus aliquam.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rubik%27s_cube_scrambled.svg/1200px-Rubik%27s_cube_scrambled.svg.png",
+        "price": 299
+      },
+      "id": 22
     }
   ],
   "wishlist": [],
