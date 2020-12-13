@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , DoCheck } from '@angular/core';
 import { CartItem } from 'src/app/model/cart-item';
 import { Product } from 'src/app/model/product';
 import { CartService } from 'src/app/shared/cart.service';

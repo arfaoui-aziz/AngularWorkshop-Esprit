@@ -1,4 +1,14 @@
-hr{
-    border-width: 3px;
-    border-color: #191D22;
+.myclass{
+    background-color: #191D22;
 }
+.text-mycolor{
+    background-color: red;
+    background-image:linear-gradient(to right,#fc2547 50%, #ff5a00 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+a { text-decoration: none; }
