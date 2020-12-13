@@ -43,28 +43,7 @@
       "price": 600
     }
   ],
-  "cart": [
-    {
-      "product": {
-        "id": 1,
-        "name": "Whey Arkens ",
-        "description": " Whey Protéine Whey Arkens Isolate BLACK-PROTEIN : La Whey la plus vendue en France depuis plus de 10 ans. Formule unique d'Isolat de protéines de lait ultra fin associé à de la Kre-Alkalyn®, 5 vitamines et 5 minéraux. L'Arkens est la protéine la plus dosée du marché à l'heure actuelle. ",
-        "imageUrl": "https://media.fitnessboutique.fr/product_images/bla_whey-arkens-750g-v2_f.jpg",
-        "price": 199
-      },
-      "id": 1
-    },
-    {
-      "product": {
-        "id": 3,
-        "name": "XNative Whey",
-        "description": "Whey Protéine Whey Native XNATIV : Whey Native (meilleur profil nutritionnel) et Concentrée (Protéines de Lait), pour 100 g : - Calories de 389 à 393 kcal selon le goût - Protéines : 74 g à 78 g - BCAA : 16 g à 17 g WHEY NATIVE une Protéine à la qualité incontestée avec bon rapport nutritionnel ",
-        "imageUrl": "https://media.fitnessboutique.fr/product_images/xnawhey2c/xnawhey2c_principale_m.jpg",
-        "price": 399
-      },
-      "id": 2
-    }
-  ],
+  "cart": [],
   "wishlist": [],
   "user": [
     {

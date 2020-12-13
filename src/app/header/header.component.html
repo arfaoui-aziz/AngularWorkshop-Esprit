@@ -14,8 +14,9 @@
     *ngIf="!IsLogged"
     >Login</a
   >
-  <a class="ml-1 mr-2 btn btn-outline-secondary" *ngIf="IsLogged">{{
-    ActiveUser
-  }}</a>
+
+  <a class="ml-1 mr-2" *ngIf="IsLogged" [routerLink]="['/register']">
+    Welcome, {{ ActiveUser }}</a
+  >&nbsp; &nbsp;
   <a class="btn btn-primary" *ngIf="IsLogged" (click)="Logout()">Logout</a>
 </div>
